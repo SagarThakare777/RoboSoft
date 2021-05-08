@@ -9,6 +9,9 @@ import UIKit
 
 class DataInfoTableViewCell: UITableViewCell {
 
+    //MARK:- Outlet's
+    @IBOutlet weak var lblName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
